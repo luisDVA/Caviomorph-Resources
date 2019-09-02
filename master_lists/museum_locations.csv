@@ -1,0 +1,42 @@
+forGeoref,components.country,components.city,components.state,geometry.lat,geometry.lng
+New York City,USA,NA,New York,40.7308619,-73.9871558
+Belo Horizonte,Brazil,Belo Horizonte,Minas Gerais,-19.9227318,-43.9450948
+Buenos Aires,Argentina,Autonomous City of Buenos Aires,Buenos Aires,-34.6075616,-58.437076
+"La Paz, Bolivia",Bolivia,La Paz,LPZ,-16.4956371,-68.1336346
+"Valdivia, Chile",Chile,Valdivia,Los Ríos Region,-39.8141965,-73.2458525
+Puerto Madryn,Argentina,NA,CHB,-42.7287411,-65.1058657
+Tucuman,Argentina,San Miguel de Tucumán,TU,-26.8303703,-65.2038133
+Mar del Plata,Argentina,Mar del Plata,Buenos Aires,-37.9977225,-57.5482703
+Quito,Ecuador,Quito,Pichincha,-0.2201641,-78.5123274
+Porto Velho,Brazil,Porto Velho,Rondônia,-8.7494525,-63.8735438
+Mendoza,Argentina,Mendoza,Mza.,-32.8897294,-68.8442956
+"San Juan, Argentina",Argentina,NA,SC,-47.1860304,-66.3107613
+Montevideo,Uruguay,Montevideo,Montevideo,-34.9059039,-56.1913569
+Maha Sarakham,Thailand,NA,Maha Sarakham Province,15.9041448,103.0840638
+Montpellier,France,Montpellier,Occitania,43.6112422,3.8767337
+London,United Kingdom,NA,England,51.4893335,-0.1440551
+"San Nicolás, Argentina",Argentina,San Nicolás,Buenos Aires,-33.3278069,-60.2170536
+"Santa Cruz, Bolivia",Bolivia,Cobija,PND,-11.099756,-68.9609062
+Monte Hermoso,Argentina,Monte Hermoso,Buenos Aires,-38.9869246,-61.2902283
+Santiago,Chile,Santiago,Santiago Metropolitan Region,-33.4377968,-70.6504451
+"Santa Teresa, Espiritu Santo, Brazil",Brazil,Santa Teresa,Espírito Santo,-19.936339,-40.597945
+Porto Alegre,Brazil,Porto Alegre,Rio Grande do Sul,-30.0324999,-51.2303767
+Canoas,Brazil,Canoas,Rio Grande do Sul,-29.9216045,-51.1799525
+"Belem, Brazil",Brazil,Belém,Pará,-1.45056,-48.4682453
+Paris,France,Paris,Ile-de-France,48.8566101,2.3514992
+"Trelew, Chubut",Argentina,Trelew,CHB,-43.2531321,-65.3094184
+Toronto,Canada,Toronto,Ontario,43.653963,-79.387207
+Chicago,USA,Chicago,Illinois,41.8755546,-87.6244212
+Washington DC,USA,Washington,District of Columbia,38.8949549,-77.0366456
+Sao Paulo,Brazil,NA,São Paulo,-21.9549806,-49.0232348
+Rio de Janeiro,Brazil,Rio de Janeiro,Rio de Janeiro,-22.9110137,-43.2093727
+Berkeley,USA,Berkeley,California,37.8708393,-122.2728639
+Albuquerque,USA,Albuquerque,New Mexico,35.0841034,-106.6509851
+"Burlington, Vermont",USA,Burlington,Vermont,44.4762975,-73.2135472
+Bariloche,Argentina,San Carlos de Bariloche,RN,-41.1334672,-71.3099936
+New Haven,USA,New Haven,Connecticut,41.3082138,-72.9250518
+Copenhagen,Denmark,Copenhagen,Capital Region of Denmark,55.6867243,12.5700724
+Brasilia,Brazil,NA,NA,-10.3333333,-53.2
+"Cambridge, MA",USA,Cambridge,Massachusetts,42.3750997,-71.1056157
+"Leiden, The Netherlands",Netherlands,Leiden,South Holland,52.1518157,4.4811089
+"Goiabeiras, Vitória, Espírito Santo, Brazil",Brazil,Vitória,Espírito Santo,-20.2648721,-40.2689343

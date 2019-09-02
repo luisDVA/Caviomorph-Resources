@@ -1,0 +1,19 @@
+Abbreviation,morphChar,description,region.of.the.skull,study
+GSL,Greatest skull length,From the anterior extremity of the nasal bones to the posterior extremity of the occiput.,Overall size (dorsal),Tavares et al 2016a
+LN,Length of nasals,From the anterior extremity of nasal bones to the suture between the nasal and the frontal bones.,Orognathofacial complex,Tavares et al 2016a
+LR,Length of rostrum,From the anterior extremity of the nasal bones to the anterior extremity of the orbit.,Orognathofacial complex,Tavares et al 2016a
+LF,Length of frontals,From the suture between nasal and frontal bones to the suture between the frontal and the parietal bones.,Vault/orognathofacial complex,Tavares et al 2016a
+LPar,Length of parietals,From the suture between frontal and parietal bones to the suture between the parietal and the interparietal bones.,Vault,Tavares et al 2016a
+IOC,Interorbital constriction,"Least width on the interorbital region, at the frontal bones.",Vault,Tavares et al 2016a
+WZ,Width of zygomatic arches,"Width between lateral extremities of the zygomatic arches, at the jugal bones.",Orognathofacial complex,Tavares et al 2016a
+WM,Width of mastoids,Major width between mastoid bones.,Base,Tavares et al 2016a
+BL,Basilar length,From the posterior margins of incisive alveolus to the anterior margin of the foramen magnum.,Overall size (ventral),Tavares et al 2016a
+LD,Length of diastema,From the posterior margin of the incisive alveolus to the anterior margin of upper premolar 4 (P4) alveolus.,Orognathofacial complex,Tavares et al 2016a
+LPal,Length of palate,From to the anterior margin of P4 alveolus to the anterior margin of mesopterygoid fossa.,Orognathofacial complex,Tavares et al 2016a
+PPL,Post‐palatal length,From the anterior margin of mesopterygoid fossa to the anterior margin of the foramen magnum.,Base,Tavares et al 2016a
+LBul,Length of bulla,From the stylar process to the posterior extremity of the auditory bulla.,Base,Tavares et al 2016a
+HB,Height of braincase,From the suture between basisphenoid and basioccipital to highest point of the braincase.,Vault/base,Tavares et al 2016a
+WMax,Width of maxillaries on M3,Major width of maxilla between upper molar 2 and upper molar 3.,Orognathofacial complex,Tavares et al 2016a
+WR,Width of rostrum,Width of rostrum at the suture between premaxilla and maxilla.,Orognathofacial complex,Tavares et al 2016a
+HR,Height of rostrum,"Distance between dorsal and ventral surface at the level of premaxilla and nasal bones, respectively.",Orognathofacial complex,Tavares et al 2016a
+HZP,Height of zygomatic plate,"From the ventral extremity of the inferior zygomatic root to the suture between premaxilla, frontal and nasal bones.",Orognathofacial complex,Tavares et al 2016a

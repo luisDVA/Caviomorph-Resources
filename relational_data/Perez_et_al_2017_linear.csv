@@ -1,0 +1,14 @@
+abbreviation,name,formula,interpretation,study
+apdh,anteroposterior diameter of the humerus,,,Perez et al 2017
+deh,diameter of the epicondyles,,,Perez et al 2017
+dlh,deltoid length of the humerus,,,Perez et al 2017
+fl,functional femur length,,,Perez et al 2017
+hl,functional humerus length,,,Perez et al 2017
+ful,functional ulna length,,,Perez et al 2017
+ol,length of the olecranon process,,,Perez et al 2017
+tdf,transverse diameter of the femur,,,Perez et al 2017
+SMI,Shoulder moment index,dlh/hl × 100,indication of the mechanical advantage of the deltoid and major pectoral muscles acting across the shoulder joint,Perez et al 2017
+EI,Epicondyle index,deh/hl × 100,indicator of fossoriality,Perez et al 2017
+HWL,Humeral robustness index,apdh/hl × 100,indicator of general resistance of the bone,Perez et al 2017
+IFA,Index of fossorial ability,ol/(ful-ol) × 100,"measure of the mechanical advantage of the triceps and dorsoepitrochlearis muscles in elbow extension, also a good indicator of fossoriality",Perez et al 2017
+FRI,Femur robustness index ,tdf/fl × 100,capacity for supporting body mass and to withstand the vertical forces associated with speed increase,Perez et al 2017

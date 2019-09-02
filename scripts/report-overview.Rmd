@@ -1,0 +1,109 @@
+---
+output: markdowntemplates::hrbrmrkdn
+---
+```{r include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, warning = FALSE, echo = TRUE, fig.retina = 2, collapse = TRUE
+)
+knitr::knit_hooks$set(chunk = markdowntemplates:::chunk_hook_html) # DO NOT DELETE - NECESSARY FOR PRISM
+knitr::knit_hooks$set(optipng = knitr::hook_optipng) # DELETE ONLY IF YOU DON'T WANT COMPRESSION
+knitr::knit_hooks$set(pngquant = knitr::hook_pngquant) # DELETE ONLY IF YOU DON'T WANT COMPRESSION
+library(firasans)
+library(hrbrthemes)
+```
+
+```{r, include=FALSE}
+focalSp <- "Isothrix bistriata"
+```
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# querying relational tables for given taxa
+library(here)
+library(tidyverse)
+library(stringr)
+library(janitor)
+
+
+# caviomorphs in MammalianDiversity
+mammD <- read_csv(here("master_lists","asm-species-2018-10-02.csv")) %>% 
+  mutate(`Linnean Family`=str_replace(`Linnean Family`,"Capromyidae","Echimyidae"))
+cav_families <- c("Erethizontidae","Dasyproctidae","Cuniculidae",
+                  "Dinomyidae","Caviidae","Octodontidae","Ctenomyidae",
+                  "Echimyidae","Myocastoridae",
+                  "Chinchillidae","Abrocomidae")
+cavs <- mammD %>% filter(`Linnean Family` %in% cav_families)
+
+# three random taxa
+cavsRandom <- cavs %>% sample_n(3) %>% select(`Linnean Family`,`Canonical Sciname`) %>% print
+
+# read specimen data
+specimen_Data <- read_csv(here("master_lists","master-specimens.csv")) %>% 
+  select(1:7,9:10)
+names(specimen_Data) <- str_remove(names(specimen_Data),"components.")
+specimen_Data <- select(specimen_Data,-museumName,-city)
+specimen_Data <- rename(specimen_Data,collection=standardized_name)
+# read accession data
+accession_Data <- read_csv(here("master_lists","master-accessions.csv"))  
+# read morphology data
+morphology_Data <- read_csv(here("master_lists","master-morphology.csv"))
+# read eco data
+diet_Data <- read_csv(here("master_lists","master-diet.csv")) 
+habits_Data <- read_csv(here("master_lists","master-habits.csv")) 
+habitat_Data <- read_csv(here("master_lists","master-habitats.csv")) 
+# data sources
+master_datasets <- mget(ls(pattern = "Data$"))
+taxDetails <- cavs %>% filter(`Canonical Sciname`==focalSp) %>% 
+  select(`Linnean Family`,`Common Name`) %>% rename(Family=1,CommonName=2)
+metadataTibs <- map(master_datasets,filter,sp==focalSp) %>% map(remove_empty,'cols')
+
+```
+
+Query: "`r focalSp`"
+
+```{r, results="asis", echo = FALSE}
+cat("## ", taxDetails$Family,": ",sep = "")
+if(!is.na(taxDetails$CommonName))
+cat("_",focalSp,"_"," "," (",taxDetails$CommonName,")",sep = "") else
+cat("_",focalSp,"_",sep = "")
+```
+
+
+```{r, echo = FALSE}
+metadataTibs <- map(master_datasets,filter,sp==focalSp) %>%     
+  map(remove_empty,'cols')
+resultsEnf <- map(metadataTibs,nrow) %>% simplify() %>% enframe() %>% 
+  rename(Data=1,`Number of records`=2) %>%
+  mutate(Data=str_remove(Data,"_Data"))%>%
+  mutate(Data=str_to_title(Data))
+  
+```
+
+## Matching records
+```{r}
+if (all(resultsEnf$`Number of records` == 0)) {
+  cat("no matches")
+} else {
+knitr::kable(resultsEnf)
+}
+```
+
+
+```{r, echo=FALSE, warning=FALSE}
+resultsEnf_og <- map(metadataTibs,nrow) %>% simplify() %>% enframe()
+forShow_mdtibs <- resultsEnf_og %>% filter(value!=0) %>% pull(name)
+mdtibsPrnt <- metadataTibs[forShow_mdtibs]
+mdtibsPrnt <- mdtibsPrnt %>% map(select,-one_of("id")) %>% 
+  map(select,-one_of("input_file")) %>% 
+  map(rename,scientific_name=sp) %>% map(clean_names)
+Prntnames <- str_to_title(str_replace(names(mdtibsPrnt),"_"," "))
+mdtibsPrntUN <- unname(mdtibsPrnt)
+
+```
+
+## Available data
+
+```{r, results="asis"}
+map2(mdtibsPrntUN,Prntnames,~knitr::kable(.x,caption=paste(.y)))
+```
+

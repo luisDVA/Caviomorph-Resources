@@ -1,0 +1,101 @@
+Landmark,structure,Description,Aim,study
+1,Reference lengths,Inter-nasals (anterior end),Naso-occipital length (not used),Echeverria et al 2017
+2,Reference lengths,Inter-occipital/inter-temporal crossing sutures,Naso-occipital length (not used),Echeverria et al 2017
+3,Reference lengths,Anterior end of the molar row,Diastema’s length,Echeverria et al 2017
+4,Reference lengths,Anteroventral end of the magnum foramen,Basilar length,Echeverria et al 2017
+5,Reference lengths,Anterior (lingual) end of the superior premaxilla,Basilar length,Echeverria et al 2017
+6,Reference lengths,Lower incisors tip at the mean point,Out lever-arm,Echeverria et al 2017
+7,Reference lengths,Right end of the mandible,Mandibular width,Echeverria et al 2017
+8,Reference lengths,Left end of the mandible,Mandibular width,Echeverria et al 2017
+9,Reference lengths,Right end of the zygomatic arch,Zygomatic arch’s width (not used),Echeverria et al 2017
+10,Reference lengths,Left end of the zygomatic arch,Zygomatic arch’s width (not used),Echeverria et al 2017
+11,temporo-mandibular joint TMJ (pivot),Condylar posterior end,temporo-mandibular joint – cranium centroid,Echeverria et al 2017
+12,temporo-mandibular joint TMJ (pivot),Condylar anterior end,temporo-mandibular joint – cranium centroid,Echeverria et al 2017
+13,temporo-mandibular joint TMJ (pivot),Condylar medial end,temporo-mandibular joint – cranium centroid,Echeverria et al 2017
+14,temporo-mandibular joint TMJ (pivot),Condylar lateral end,temporo-mandibular joint – cranium centroid,Echeverria et al 2017
+15,temporo-mandibular joint TMJ (pivot),Condylar dorsal end,temporo-mandibular joint – cranium centroid,Echeverria et al 2017
+16,temporo-mandibular joint TMJ (pivot),Condylar ventral end,temporo-mandibular joint – cranium centroid,Echeverria et al 2017
+17,superficial masseter,Posterior end (cranium),superficial masseter – cranium centroid,Echeverria et al 2017
+18,superficial masseter,Anterior end (cranium),superficial masseter – cranium centroid,Echeverria et al 2017
+19,superficial masseter,Medial end (cranium),superficial masseter – cranium centroid,Echeverria et al 2017
+20,superficial masseter,Lateral end (cranium),superficial masseter – cranium centroid,Echeverria et al 2017
+21,superficial masseter,Dorsal end (cranium),superficial masseter – cranium centroid,Echeverria et al 2017
+22,superficial masseter,Ventral end (cranium),superficial masseter – cranium centroid,Echeverria et al 2017
+23,superficial masseter,Posterior end (mandible),superficial masseter – mandible centroid,Echeverria et al 2017
+24,superficial masseter,Anterior end (mandible),superficial masseter – mandible centroid,Echeverria et al 2017
+25,superficial masseter,Medial end (mandible),superficial masseter – mandible centroid,Echeverria et al 2017
+26,superficial masseter,Lateral end (mandible),superficial masseter – mandible centroid,Echeverria et al 2017
+27,superficial masseter,Dorsal end (mandible),superficial masseter – mandible centroid,Echeverria et al 2017
+28,superficial masseter,Ventral end (mandible),deep masseter – cranium centroid,Echeverria et al 2017
+29,deep masseter,Posterior end (cranium),deep masseter – cranium centroid,Echeverria et al 2017
+30,deep masseter,Anterior end (cranium),deep masseter – cranium centroid,Echeverria et al 2017
+31,deep masseter,Medial end (cranium),deep masseter – cranium centroid,Echeverria et al 2017
+32,deep masseter,Lateral end (cranium),deep masseter – cranium centroid,Echeverria et al 2017
+33,deep masseter,Dorsal end (cranium),deep masseter – cranium centroid,Echeverria et al 2017
+34,deep masseter,Ventral end (cranium),deep masseter – cranium centroid,Echeverria et al 2017
+35,deep masseter,Posterior end (mandible),deep masseter – mandible centroid,Echeverria et al 2017
+36,deep masseter,Anterior end (mandible),deep masseter – mandible centroid,Echeverria et al 2017
+37,deep masseter,Medial end (mandible),deep masseter – mandible centroid,Echeverria et al 2017
+38,deep masseter,Lateral end (mandible),deep masseter – mandible centroid,Echeverria et al 2017
+39,deep masseter,Dorsal end (mandible),deep masseter – mandible centroid,Echeverria et al 2017
+40,deep masseter,Ventral end(mandible),deep masseter – mandible centroid,Echeverria et al 2017
+41,posterior extension of the masseter,Posterior end (cranium),posterior extension of the masseter – cranium centroid,Echeverria et al 2017
+42,posterior extension of the masseter,Anterior end (cranium),posterior extension of the masseter – cranium centroid,Echeverria et al 2017
+43,posterior extension of the masseter,Medial end (cranium),posterior extension of the masseter – cranium centroid,Echeverria et al 2017
+44,posterior extension of the masseter,Lateral end (cranium),posterior extension of the masseter – cranium centroid,Echeverria et al 2017
+45,posterior extension of the masseter,Dorsal end (cranium),posterior extension of the masseter – cranium centroid,Echeverria et al 2017
+46,posterior extension of the masseter,Ventral end (cranium),posterior extension of the masseter – cranium centroid,Echeverria et al 2017
+47,posterior extension of the masseter,Posterior end (mandible),posterior extension of the masseter –mandible entroid,Echeverria et al 2017
+48,posterior extension of the masseter,Anterior end (mandible),posterior extension of the masseter –mandible entroid,Echeverria et al 2017
+49,posterior extension of the masseter,Medial end (mandible),posterior extension of the masseter –mandible entroid,Echeverria et al 2017
+50,posterior extension of the masseter,Lateral end (mandible),posterior extension of the masseter –mandible entroid,Echeverria et al 2017
+51,posterior extension of the masseter,Dorsal end (mandible),posterior extension of the masseter –mandible entroid,Echeverria et al 2017
+52,posterior extension of the masseter,Ventral end(mandible),posterior extension of the masseter –mandible entroid,Echeverria et al 2017
+53,infraorbital zygomaticomandibularis,Posterior end (cranium),infraorbital zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+54,infraorbital zygomaticomandibularis,Anterior end (cranium),infraorbital zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+55,infraorbital zygomaticomandibularis,Medial end (cranium),infraorbital zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+56,infraorbital zygomaticomandibularis,Lateral end (cranium),infraorbital zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+57,infraorbital zygomaticomandibularis,Dorsal end (cranium),infraorbital zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+58,infraorbital zygomaticomandibularis,Ventral end (cranium),infraorbital zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+59,infraorbital zygomaticomandibularis,Posterior end (mandible),infraorbital zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+60,infraorbital zygomaticomandibularis,Anterior end (mandible),infraorbital zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+61,infraorbital zygomaticomandibularis,Medial end (mandible),infraorbital zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+62,infraorbital zygomaticomandibularis,Lateral end (mandible),infraorbital zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+63,infraorbital zygomaticomandibularis,Dorsal end (mandible),infraorbital zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+64,infraorbital zygomaticomandibularis,Ventral end(mandible),infraorbital zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+65,zygomaticomandibularis,Posterior end (cranium),Zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+66,zygomaticomandibularis,Anterior end (cranium),Zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+67,zygomaticomandibularis,Medial end (cranium),Zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+68,zygomaticomandibularis,Lateral end (cranium),Zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+69,zygomaticomandibularis,Dorsal end (cranium),Zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+70,zygomaticomandibularis,Ventral end (cranium),Zygomaticomandibularis – cranium centroid,Echeverria et al 2017
+71,zygomaticomandibularis,Posterior end (mandible),Zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+72,zygomaticomandibularis,Anterior end (mandible),Zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+73,zygomaticomandibularis,Medial end (mandible),Zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+74,zygomaticomandibularis,Lateral end (mandible),Zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+75,zygomaticomandibularis,Dorsal end (mandible),Zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+76,zygomaticomandibularis,Ventral end(mandible),Zygomaticomandibularis – mandible centroid,Echeverria et al 2017
+77,temporalis,Posterior end (cranium),Temporalis – cranium centroid,Echeverria et al 2017
+78,temporalis,Anterior end (cranium),Temporalis – cranium centroid,Echeverria et al 2017
+79,temporalis,Medial end (cranium),Temporalis – cranium centroid,Echeverria et al 2017
+80,temporalis,Lateral end (cranium),Temporalis – cranium centroid,Echeverria et al 2017
+81,temporalis,Dorsal end (cranium),Temporalis – cranium centroid,Echeverria et al 2017
+82,temporalis,Ventral end (cranium),Temporalis – cranium centroid,Echeverria et al 2017
+83,temporalis,Posterior end (mandible),Temporalis – mandible centroid,Echeverria et al 2017
+84,temporalis,Anterior end (mandible),Temporalis – mandible centroid,Echeverria et al 2017
+85,temporalis,Medial end (mandible),Temporalis – mandible centroid,Echeverria et al 2017
+86,temporalis,Lateral end (mandible),Temporalis – mandible centroid,Echeverria et al 2017
+87,temporalis,Dorsal end (mandible),Temporalis – mandible centroid,Echeverria et al 2017
+88,temporalis,Ventral end(mandible),Temporalis – mandible centroid,Echeverria et al 2017
+89,pterygoid,Posterior end (cranium),Pterygoid – cranium centroid,Echeverria et al 2017
+90,pterygoid,Anterior end (cranium),Pterygoid – cranium centroid,Echeverria et al 2017
+91,pterygoid,Medial end (cranium),Pterygoid – cranium centroid,Echeverria et al 2017
+92,pterygoid,Lateral end (cranium),Pterygoid – cranium centroid,Echeverria et al 2017
+93,pterygoid,Dorsal end (cranium),Pterygoid – cranium centroid,Echeverria et al 2017
+94,pterygoid,Ventral end (cranium),Pterygoid – cranium centroid,Echeverria et al 2017
+95,pterygoid,Posterior end (mandible),Pterygoid – mandible centroid,Echeverria et al 2017
+96,pterygoid,Anterior end (mandible),Pterygoid – mandible centroid,Echeverria et al 2017
+97,pterygoid,Medial end (mandible),Pterygoid – mandible centroid,Echeverria et al 2017
+98,pterygoid,Lateral end (mandible),Pterygoid – mandible centroid,Echeverria et al 2017
+99,pterygoid,Dorsal end (mandible),Pterygoid – mandible centroid,Echeverria et al 2017
+100,pterygoid,Ventral end(mandible),Pterygoid – mandible centroid,Echeverria et al 2017

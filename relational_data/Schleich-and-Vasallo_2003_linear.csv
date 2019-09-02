@@ -1,0 +1,6 @@
+"morphChar","description","study","skStructure","LMtype"
+"naso-occipital length ","anteriormost point on nasals to posteriormost point on occiput","Schelich and Vasallo 2003","cranium","linear"
+" bullar length ","longest axis of bulla","Schelich and Vasallo 2003","cranium","linear"
+"bullar width ","widest axis of bulla","Schelich and Vasallo 2003","cranium","linear"
+"bullar depth ","dorsal surface of bony meatus to ventral bullar surface","Schelich and Vasallo 2003","cranium","linear"
+"bullar volume ","estimated using the formula for an elliptical cone","Schelich and Vasallo 2003","cranium","compound"

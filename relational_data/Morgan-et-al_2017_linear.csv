@@ -1,0 +1,19 @@
+morphChar,Definition,MorphofunctionalSignificance,LMtype,skStructure,study
+Amc,Concavity of external auditory meatus (maximum distance between anteroexternal margin of external auditory meatus and posteriormost point of concavity),"This variable estimates the fit of the mandibular condyle in the postglenoid joint area (Verzi and Olivares, 2006)",linear,skull,Morgan et al 2017
+Bl,Basilar length,,linear,skull,Morgan et al 2017
+Dab,"Anterior depth of auditory bulla (depth of auditory bulla in front of external auditory meatus, from dorsal contact with squamosal-alisphenoid to ventral margin)","Estimates the constraint imposed by the bulla on gape (Verzi and Olivares, 2006)",linear,skull,Morgan et al 2017
+Pc,Width of base of postcondylean process,"This variable estimates the fit of the mandibular condyle in the postglenoid joint area (Verzi and Olivares, 2006)",linear,mandible,Morgan et al 2017
+Pgw,Width of postglenoid fossa (measured at origin of the posterior apophysis of the squamosal),"This variable estimates the fit of the mandibular condyle in the postglenoid joint area (Verzi and Olivares, 2006)",linear,skull,Morgan et al 2017
+Ib,Distance between anterior margin of mandibular foramen (mf) and extreme tip of condyle,"Estimates depth of the insertion of the lower incisor (Verzi and Olivares, 2006)",linear,mandible,Morgan et al 2017
+Proc,Procumbency of upper incisors (in degrees),Related to angle of attack to soil during tooth-digging (Reig et al. 1965),angle,skull,Morgan et al 2017
+DSN,"Relative depth of great scapular notch (DSN = Dsn/Tls), Dsn, depth of great scapular notch (maximum distance between scapular blade and scapular spine); Tls, total length of scapula (from margin of glenoid fossa to intersection between scapular spine base and vertebral border of scapula)","Estimates relative development of m. infraspinatus; also related to direction of action lines of trapezius and deltoid muscles (Morgan, 2009a)",linear,postcranium,Morgan et al 2017
+Hl,Humeral length,,linear,postcranium,Morgan et al 2017
+Hw,anteroposterior diameter at middle of humeral diaphysis,,linear,postcranium,Morgan et al 2017
+HUR,Humeral robusticity (HUR = Hw/Hl),"Estimates bone resistance, especially with regards to forces applied on the sagittal plane during scratch-digging (Elissamburu and Vizcaíno, 2004; Hildebrand, 1985)",index,postcranium,Morgan et al 2017
+Ew,Maximum width at humeral epicondyle,,linear,postcranium,Morgan et al 2017
+RWE,Relative width of distal epiphysis at epicondyles (RWE = Ew/Hl),"Estimates development of hand flexor muscles (Hildebrand, 1985)",index,postcranium,Morgan et al 2017
+Ol,Olecranon length,,linear,postcranium,Morgan et al 2017
+Ul,Ulnar length,,linear,postcranium,Morgan et al 2017
+RDO,Relative development of olecranon (RDO = Ol/Ul),"Estimates mechanical advantage of m. triceps brachii (internal lever arm); also estimates available surface for attachment of hand flexor and extensor muscles (Hildebrand, 1985)",index,postcranium,Morgan et al 2017
+EI,"External index (EI = PET/ET); PET, portion externa thickness [radial enamel (RE) + prismless enamel (PLEX)]; ET, total enamel thickness","Higher EI increases resistance to abrasion (Boyde and Fortelius, 1986; Rensberger and Koenigswald, 1980), as does a thick PLEX (Flynn et al., 1987)",index,skull,Morgan et al 2017
+HSBi,"Hunter–Schreger band inclination, measured as the angle between the HSB and a line perpendicular to the enamel–dentine junction","Increasing inclination reinforces resistance to fracture spread (Koenigswald et al., 1987; Martin, 1999; Pfretzschner, 1988; Rensberger, 1997)",angle,skull,Morgan et al 2017

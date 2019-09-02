@@ -1,0 +1,10 @@
+sp,number_of_species,family,common_name,HB,T,W,study
+Cavia,6,Caviidae,"cavy, Guinea pig, cuis",265-310,vestigial,550-760,Rocha Barbosa et al 2015
+Galea,3,Caviidae,Cuis,195-284,vestigial,140-560,Rocha Barbosa et al 2015
+Microcavia,3,Caviidae,"cuis, mountain cavy",170-245,vestigial,200-326,Rocha Barbosa et al 2015
+Dolichotis,2,Caviidae,Mara,420-810,20-50,1800-8500,Rocha Barbosa et al 2015
+Hydrochaeris,2,Caviidae,"Capybara, carpincho",1070-1340,10-20,35000-65000,Rocha Barbosa et al 2015
+Kerodon,2,Caviidae,"mocó, rock cavy",384-410,vestigial,400-1100,Rocha Barbosa et al 2015
+Dasyprocta,11,Dasyproctidae,Agouti,445-760,11-55,2400-5900,Rocha Barbosa et al 2015
+Myoprocta,2,Dasyproctidae,Acouchy,298-390,51-78,800-1500,Rocha Barbosa et al 2015
+Cuniculus,2,Cuniculidae,Paca,616-775,12-32,5000-13000,Rocha Barbosa et al 2015

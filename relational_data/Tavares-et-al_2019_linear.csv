@@ -1,0 +1,21 @@
+structure,abbreviation,measurement,description,study
+Forelimb,HL,Humeral Length,From the proximal end of the humeral head to edge of the capitulum,Tavares et al 2019
+Forelimb,DPCL,Deltopectoral Crest Length,From the proximal point of the articular head to the distal end of the deltopectoral crest,Tavares et al 2019
+Forelimb,DPCH,Deltopectoral Crest Height,From the anterior edge of the humerus to the most elevated point of the deltopectoral crest,Tavares et al 2019
+Forelimb,TWH,Transverse Width of the Humerus,From the medial epicondyle to the lateral epicondyle,Tavares et al 2019
+Forelimb,TD,Trochlea Depth,From the anterior to the posterior edge of the trochlea (distal view),Tavares et al 2019
+Forelimb,CD,Capitulum Depth,From the anterior to the posterior edge of the articular surface at the capitulum (distal view),Tavares et al 2019
+Forelimb,APDH,Anteroposterior Diameter of the Humerus,From the anterior edge of the shaft to the posterior edge,Tavares et al 2019
+Forelimb,OPL,Olecranon Process Length,The proximal edge of the olecranon process to the proximal edge of the trochlear notch,Tavares et al 2019
+Forelimb,RHW,Radial Head Width,From the medial edge of the head to the lateral edge (proximal view),Tavares et al 2019
+Scapula,SNW,Scapular Notch Width,Craniocaudal distance of the scapula at the notch point,Tavares et al 2019
+Scapula,CAW,Scapular Cranial Angle Width,"Maximum distance perpendicular to the axis of the spine of the scapula, of the cranial angle to the scapular spine",Tavares et al 2019
+Scapula,CPW,Coracoid Process Width,"Maximum distance between each side of the coracoid process, taken in the contact area of the process with the scapula",Tavares et al 2019
+Scapula,IFW,Scapular Infraspinatus Fossa Width,Distance between the caudal angle and the dorsal end of the scapular spine,Tavares et al 2019
+Hind limb,FL,Femoral Length,From the proximal edge of the greater trochanter to the distal edge of the condyle (posterior view),Tavares et al 2019
+Hind limb,FEB,Femoral Epicondylar Breadth,From the lateral edge of the lateral epicondyle to the medial edge of the medial epicondyle,Tavares et al 2019
+Hind limb,FEH,Femoral Epicondylar Height,From the anterior edge of the medial epicondyle to the posterior margin of the medial epicondyle,Tavares et al 2019
+Hind limb,APDF,Antero-posterior Diameter of the Femur,From the anterior to the posterior edge at the third trochanter level,Tavares et al 2019
+Hind limb,FHL,Femoral Head Length,From the anterior edge of the femoral head to the posterior edge,Tavares et al 2019
+Hind limb,TPEL,Tibial Proximal End Length,From the anterior edge of the tibial tuberosity to the most posterior edge of the tibial plateau,Tavares et al 2019
+Hind limb,TPEW,Tibial Proximal End Width,From the lateral edge of the lateral condyle to the medial edge of the medial condyle,Tavares et al 2019

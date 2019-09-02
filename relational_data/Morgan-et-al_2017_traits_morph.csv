@@ -1,0 +1,4 @@
+sp,ET_mean,ET_sd,PET_mean,PET_sd,EI_mean,EI_sd,HSBi_range,n,study
+Ctenomys australis,226.34,27.1,31,3.46,0.14,0.01,30-40,3,Morgan et al 2017
+Ctenomys talarum,187.13,19.6,31.5,2.88,0.17,0.01,30-45,8,Morgan et al 2017
+Ctenomys sp. 'perucho',230,,50,,0.24,,40-48,1,Morgan et al 2017

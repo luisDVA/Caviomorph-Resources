@@ -1,0 +1,10 @@
+sp,number_of_species,family,common_name,habit,habitat,study
+Cavia,6,Caviidae,"cavy, Guinea pig, cuis",terrestrial/generalized,"Scrub grasslands, savannas, wetlands, primary and secondary forests",Rocha Barbosa et al 2015
+Galea,3,Caviidae,Cuis,terrestrial/occasional digger,"Open areas, savanna and dry areas,primary and disturbed habitats",Rocha Barbosa et al 2015
+Microcavia,3,Caviidae,"cuis, mountain cavy",terrestrial/occasional digger,"Grasslands, arid and semiarid lowlands and valleys, riparian habitats, forested areas, or sandy forested flats",Rocha Barbosa et al 2015
+Dolichotis,2,Caviidae,Mara,terrestrial/cursorial,"lowland habitats, including forest and creosote bush flats, arid Chaco, and dry, low, flat thorn scrub",Rocha Barbosa et al 2015
+Hydrochaeris,2,Caviidae,"Capybara, carpincho",Semi-aquatic/cursorial,"Lowland rainforest, dry forests, shrub, or grassland near water",Rocha Barbosa et al 2015
+Kerodon,2,Caviidae,"mocó, rock cavy",terrestrial/scansorial,Dry rock areas with low scrub vegetation where they shelter in crevices,Rocha Barbosa et al 2015
+Dasyprocta,11,Dasyproctidae,Agouti,terrestrial/cursorial,"Mature, disturbed, secondary evergreen, deciduous, gallery forests, montane forests, gardens and plantations",Rocha Barbosa et al 2015
+Myoprocta,2,Dasyproctidae,Acouchy,terrestrial/cursorial,Lowland forests,Rocha Barbosa et al 2015
+Cuniculus,2,Cuniculidae,Paca,terrestrial/generalized,"Mature, disturbed, secondary evergreen, gallery forests, montane forests, gardens and plantations",Rocha Barbosa et al 2015

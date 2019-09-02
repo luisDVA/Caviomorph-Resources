@@ -1,0 +1,184 @@
+---
+output: markdowntemplates::hrbrmrkdn
+---
+```{r include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, warning = FALSE, echo = TRUE, fig.retina = 2, collapse = TRUE
+)
+knitr::knit_hooks$set(chunk = markdowntemplates:::chunk_hook_html) # DO NOT DELETE - NECESSARY FOR PRISM
+knitr::knit_hooks$set(optipng = knitr::hook_optipng) # DELETE ONLY IF YOU DON'T WANT COMPRESSION
+knitr::knit_hooks$set(pngquant = knitr::hook_pngquant) # DELETE ONLY IF YOU DON'T WANT COMPRESSION
+library(firasans)
+library(hrbrthemes)
+```
+
+```{r, include=FALSE}
+focalSp <- "Isothrix bistriata"  
+```
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+# querying relational tables for given taxa
+library(here)
+library(dplyr)
+library(purrr)
+library(readr)
+library(tibble)
+library(knitr)
+library(flextable)
+library(stringr)
+library(janitor)
+
+# caviomorphs in MammalianDiversity
+mammD <- read_csv(here("master_lists","asm-species-2018-10-02.csv")) %>% 
+  mutate(`Linnean Family`=str_replace(`Linnean Family`,"Capromyidae","Echimyidae"))
+cav_families <- c("Erethizontidae","Dasyproctidae","Cuniculidae",
+                  "Dinomyidae","Caviidae","Octodontidae","Ctenomyidae",
+                  "Echimyidae","Myocastoridae",
+                  "Chinchillidae","Abrocomidae")
+cavs <- mammD %>% filter(`Linnean Family` %in% cav_families)
+
+# read specimen data
+specimen_Data <- read_csv(here("master_lists","master-specimens.csv")) %>% 
+  select(1:7,9:10)
+names(specimen_Data) <- str_remove(names(specimen_Data),"components.")
+# read morphology data
+morphology_Data <- read_csv(here("master_lists","master-morphology.csv"))
+
+# data sources
+master_datasets <- mget(ls(pattern = "Data$"))
+taxDetails <- cavs %>% filter(`Canonical Sciname`==focalSp) %>% 
+  select(`Linnean Family`,`Common Name`) %>% rename(Family=1,CommonName=2)
+metadataTibs <- map(master_datasets,filter,sp==focalSp) %>% map(remove_empty,'cols')
+
+```
+
+Query: "`r focalSp`"
+
+```{r, results="asis", echo = FALSE}
+cat("## ", taxDetails$Family,": ",sep = "")
+if(!is.na(taxDetails$CommonName))
+cat("_",focalSp,"_"," "," (",taxDetails$CommonName,")",sep = "") else
+cat("_",focalSp,"_",sep = "")
+```
+
+
+```{r, echo = FALSE}
+metadataTibs <- map(master_datasets,filter,sp==focalSp) %>%     
+  map(remove_empty,'cols')
+resultsEnf <- map(metadataTibs,nrow) %>% simplify() %>% enframe() %>% 
+  rename(Data=1,`Number of records`=2) %>%
+  mutate(Data=str_remove(Data,"_Data"))%>%
+  mutate(Data=str_to_title(Data))
+  
+```
+
+## Matching records
+```{r}
+if (all(resultsEnf$`Number of records` == 0)) {
+  cat("no matches")
+} else {
+knitr::kable(resultsEnf)
+}
+```
+
+
+```{r, echo=FALSE, warning=FALSE}
+resultsEnf_og <- map(metadataTibs,nrow) %>% simplify() %>% enframe()
+forShow_mdtibs <- resultsEnf_og %>% filter(value!=0) %>% pull(name)
+if (is_empty(forShow_mdtibs)) {
+  resultingVec <- c("(no data)")
+} else {
+  
+mdtibsPrnt <- metadataTibs[forShow_mdtibs]
+mdtibsPrnt <- mdtibsPrnt %>% map(select,-one_of("id")) %>% 
+  map(rename,scientific_name=sp) #%>% map(clean_names)
+morph <- mdtibsPrnt$morphology_Data
+studsmorph <- morph$study
+morphPrnt <- morph %>% group_by(study) %>% group_map(~remove_empty(.x,"cols")) 
+morphStudnames <- morph %>% group_by(study) %>% group_keys() %>% pull(study)
+names(morphPrnt) <- morphStudnames
+}
+```
+
+```{r, include=FALSE}
+if (exists("morph")){
+morphPrnt <- morph %>% group_by(study) %>% group_map(~remove_empty(.x,"cols")) 
+morphStudnames <- morph %>% group_by(study) %>% group_keys() %>% pull(study)
+names(morphPrnt) <- morphStudnames
+} else {
+NULL  
+}
+```
+
+```{r}
+if (exists("morphPrnt")){
+morphPrintIter <- map_chr(seq_along(morphPrnt), ~ {
+  tab_name <- names(morphPrnt)[.x]
+  knit_expand(text = c("##### {{tab_name}}", 
+                       "```{r tabb-{{.x}}, echo = FALSE}", 
+                       "kable(morphPrnt[[{{.x}}]])",
+                       "```"))
+})
+} else{morphPrintIter <- c("no matches")}
+```
+
+
+```{r, include=FALSE }
+#build filenames
+if (exists("studsmorph")){
+studsmorphp <- str_replace_all(studsmorph," ","-")
+studsmorphp <- str_replace(studsmorphp,"(-)(?=[0-9])","_")
+studpaths <- paste0(studsmorphp,"_linear.csv")
+studpathsF <- paste0(here("relational_data/"),studpaths)
+# check existence
+FExistence <- fs::file_exists(studpathsF)
+Favail <- names(which(FExistence==TRUE))
+TRdefs <- map(Favail,read_csv)
+namesTRdefs <- TRdefs %>% map(distinct,study) %>% map_chr(pull) 
+TRdefsPrnt <- TRdefs %>% map(select,-one_of("study"))
+names(TRdefsPrnt) <- namesTRdefs
+} else{TRdefsPrnt <- list()}
+```
+
+
+
+## Available Morphology Data
+
+```{r, results="asis"}
+  if (exists("morphPrnt")){
+  if (length(morphPrnt) == 0) {
+    cat("(no matches)")
+} else {
+cat("\\*As provided in original study.")
+ }
+}  
+```
+
+`r knit_child(text=morphPrintIter)`
+
+
+### Available Trait Definitions 
+```{r, results="asis"}
+if (length(TRdefsPrnt) == 0) {
+  cat("(no matches)")
+} else {
+cat("\\*Shown here when provided in original study.")
+}
+```
+
+
+```{r, include = FALSE}
+srcDefs <- map_chr(seq_along(TRdefsPrnt), ~ {
+  tab_name <- names(TRdefsPrnt)[.x]
+  knit_expand(text = c("##### {{tab_name}}", 
+                       "```{r tab-{{.x}}, echo = FALSE}", 
+                       "kable(TRdefsPrnt[[{{.x}}]])",
+                       "```"))
+})
+```
+
+`r knit_child(text = srcDefs)`
+
+
+

@@ -1,0 +1,65 @@
+Family,Genus,mode_of_digging,foraging_activity,subterranean_sensu_Nevo1979,study
+Abrocomiidae,Abrocoma,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Bathyergidae,Bathyergus,Scratch,underground and occassionally aboveground,TRUE,Gomes Rodrigues et al 2016
+Bathyergidae,Fukomys vandewoestijneae,Chisel-tooth,underground,TRUE,Gomes Rodrigues et al 2016
+Bathyergidae,Fukomys mechowii,Chisel-tooth,underground,TRUE,Gomes Rodrigues et al 2016
+Bathyergidae,Georychus,Chisel-tooth,underground,TRUE,Gomes Rodrigues et al 2016
+Bathyergidae,Heliophobius,Chisel-tooth,underground,TRUE,Gomes Rodrigues et al 2016
+Bathyergidae,Heterocephalus,Chisel-tooth,underground,TRUE,Gomes Rodrigues et al 2016
+Capromyidae,Capromys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Cavia,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Caviella,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Dolichotis,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Galea,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Hydrochaerus,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Kerodon,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Monticavia,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Caviidae,Nanocavia,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Chinchillidae,Chinchilla,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Chinchillidae,Lagidium,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Chinchillidae,Lagostomus,Scratch,aboveground,FALSE,Gomes Rodrigues et al 2016
+Ctenodactylidae,Ctenodactylus,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Ctenodactylidae,Felovia,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Ctenodactylidae,Massoutiera,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Ctenomyidae,Ctenomys,"Scratch, Chisel-tooth",underground and aboveground,TRUE,Gomes Rodrigues et al 2016
+Cuniculidae,Cuniculus,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Dasyproctidae,Dasyprocta,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Dasyproctidae,Myoprocta,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Diatomyidae,Laonastes,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Dinomyidae,Dinomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Callistomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Carterodon,Scratch,aboveground,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Clyomys,Scratch,aboveground,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Dactylomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Diplomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Echimys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Euryzygomatomys,Scratch,aboveground,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Geocapromys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Hoplomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Isothrix,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Kannabateomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Lonchothrix,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Makalata,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Mesocapromys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Mesomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Myocastor,Scratch,aboveground,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Ollalamys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Phyllomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Plagiodontia,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Proechimys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Trichomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Echimyidae,Trinomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Erethizontidae,Chaetomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Erethizontidae,Coendou,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Erethizontidae,Echinoprocta,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Erethizontidae,Erethizon,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Erethizontidae,Shiggurus,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Hystricidae,Atherurus,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Hystricidae,Hystrix,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Hystricidae,Trichys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Octodontidae,Octodon,Scratch,aboveground,FALSE,Gomes Rodrigues et al 2016
+Octodontidae,Octodontomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Octodontidae,Spalacopus,Chisel-tooth,underground and aboveground,TRUE,Gomes Rodrigues et al 2016
+Octodontidae,Tympanoctomys,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Petromuridae,Petromus,NA,NA,FALSE,Gomes Rodrigues et al 2016
+Thryonomyidae,Thryonomys,NA,NA,FALSE,Gomes Rodrigues et al 2016

@@ -1,0 +1,12 @@
+sp,nspecies,common_name,breeding_system,degree_of_sociality,habitat,adult_body_size_kg,gestation_time_days,metabolic_rate_mlO2gh,family,subfamily,habitat_binary,behavior_binary,study
+Cavia,8,Cavies,promiscuity,"low, nonrecurring social interactions",grassland,0.25-0.75,56-74,0.55,Caviidae,Caviinae,generalist,nonsocial,Rowe and Honeycutt 2002
+Galea,3,Cuis,promiscuity,"low, nonrecurring social interactions",grassland/arid,0.20-0.50,49-60,0.82,Caviidae,Caviinae,generalist,nonsocial,Rowe and Honeycutt 2002
+Kerodon,1,Rock cavy,polygyny,"high, long-term recurring social interactions from one season to another",rock outcrops,0.8,76-77,0.45,Caviidae,Caviinae,specialist,social,Rowe and Honeycutt 2002
+Microcavia,3,Mtn. cavy,promiscuity/polygyny,"low, nonrecurring social interactions",grassland/arid,0.15-0.34,53-55,0.69,Caviidae,Caviinae,generalist,social/nonsocial,Rowe and Honeycutt 2002
+Dolichotis,1,Mara,monogamy,"high, long-term recurring social interactions from one season to another",arid savanna,8.0-16,87-93,0.45,Caviidae,Dolichotinae,specialist,social,Rowe and Honeycutt 2002
+Pediolagus,1,Dwarf mara,monogamy,"high, long-term recurring social interactions from one season to another",arid savanna,1.6-2.3,75-77,NA,Caviidae,Dolichotinae,specialist,social,Rowe and Honeycutt 2002
+Agouti,1,Paca,monogamy,"moderate, territorial defense and pair formation with recurring social interactions",tropical forest,8.0-10,111-118,0.3,Agoutidae,Dolichotinae,NA,NA,Rowe and Honeycutt 2002
+Stictomys,1,Mtn. paca,monogamy,NA,montane forest,4.3,NA,NA,Agoutidae,Dolichotinae,NA,NA,Rowe and Honeycutt 2002
+Dasyprocta,11,Agoutis,monogamy,"moderate, territorial defense and pair formation with recurring social interactions",tropical forest,2.0-3.9,80-104,0.54,Dasyproctidae,Dolichotinae,NA,NA,Rowe and Honeycutt 2002
+Myoprocta,2,Acouchis,monogamy,"moderate, territorial defense and pair formation with recurring social interactions",tropical forest,0.60-1.4,99,0.55,Dasyproctidae,Dolichotinae,NA,NA,Rowe and Honeycutt 2002
+Hydrochaeris,1,Capybara,polygyny,"high, long-term recurring social interactions from one season to another",semiaquatic,30-65,120-156,0.25,Hydrochaeridae,Dolichotinae,specialist,social,Rowe and Honeycutt 2002

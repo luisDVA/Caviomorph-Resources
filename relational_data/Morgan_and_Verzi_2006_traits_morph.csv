@@ -1,0 +1,29 @@
+sp,Sample size (n),spType,HWL,HWL_SD,HDEWI,HDEWI_SD,RDP,RDP_SD,TLI,TLI_SD,RDSW,RDSW_SD,RTD,RTD_SD,study
+Ctenomys australis,7,Living Ctenomys,0.09,0.007,0.33,0.017,0.48,0.011,0.12,0.004,0.22,0.009,0.06,0.003,Morgan and Verzi 2006
+Ctenomys azarae,4,Living Ctenomys,0.09,0.007,0.31,0.011,0.5,0.012,0.12,0.01,0.23,0.004,0.08,0.004,Morgan and Verzi 2006
+Ctenomys conoveri,1,Living Ctenomys,0.09,NA,0.36,NA,0.55,NA,0.14,NA,0.27,NA,0.05,NA,Morgan and Verzi 2006
+Ctenomys dorbignyi,2,Living Ctenomys,0.11,0,0.33,0.002,0.52,0.017,0.11,0.012,0.22,0.011,0.06,0,Morgan and Verzi 2006
+Ctenomys flamarioni,2,Living Ctenomys,0.09,0,0.28,0.005,0.48,0.01,0.11,0.007,0.19,0.009,0.06,0.003,Morgan and Verzi 2006
+Ctenomys frater,2,Living Ctenomys,0.11,0.006,0.34,0.021,0.55,0.002,0.12,0.005,0.23,0.002,0.06,0.005,Morgan and Verzi 2006
+Ctenomys fulvus,3,Living Ctenomys,0.09,0.003,0.29,NA,0.49,0.01,0.12,0.005,0.22,0.006,0.05,0.003,Morgan and Verzi 2006
+Ctenomys leucodon,2,Living Ctenomys,0.08,0.005,0.3,0.006,0.53,0.029,0.11,0,0.21,0.002,0.06,0.001,Morgan and Verzi 2006
+Ctenomys lewisi,4,Living Ctenomys,0.12,0.008,0.37,0.021,0.56,0.016,0.13,0.013,0.25,0.012,0.06,0.005,Morgan and Verzi 2006
+Ctenomys maulinus,3,Living Ctenomys,0.1,0.01,0.34,0.005,0.5,0.006,0.12,0.007,0.23,0.008,0.07,0.007,Morgan and Verzi 2006
+Ctenomys mendocinus,1,Living Ctenomys,0.09,NA,0.32,NA,0.51,NA,0.13,NA,0.23,NA,0.08,NA,Morgan and Verzi 2006
+Ctenomys opimus,3,Living Ctenomys,0.09,0.005,0.3,0.005,0.51,0.006,0.11,0.009,0.21,0.003,0.06,0.008,Morgan and Verzi 2006
+Ctenomys rionegrensis,3,Living Ctenomys,0.1,0.004,0.33,0.005,0.51,0.017,0.11,0.002,0.22,0.009,0.07,0.004,Morgan and Verzi 2006
+Ctenomys steinbachi,3,Living Ctenomys,0.11,0.008,0.33,0.005,0.56,0.012,0.13,0.006,0.23,0.004,0.05,0.003,Morgan and Verzi 2006
+Ctenomys talarum,9,Living Ctenomys,0.09,0.006,0.3,0.011,0.52,0.008,0.12,0.008,0.21,0.008,0.08,0.007,Morgan and Verzi 2006
+Ctenomys 'marmol',4,Living Ctenomys,0.11,0.004,0.34,0.008,0.53,0.017,0.12,0.008,0.24,0.009,0.08,0.007,Morgan and Verzi 2006
+Ctenomys 'monte',6,Living Ctenomys,0.09,0.012,0.29,0.01,0.5,0.023,0.12,0.011,0.2,0.013,0.1,0.005,Morgan and Verzi 2006
+Ctenomys 'palmar',1,Living Ctenomys,0.1,NA,0.32,NA,0.52,NA,0.1,NA,0.23,NA,0.07,NA,Morgan and Verzi 2006
+Ctenomys 'perucho',4,Living Ctenomys,0.1,0.008,0.29,0.016,0.52,0.009,0.13,0.002,0.22,0.009,0.06,0.001,Morgan and Verzi 2006
+Ctenomys 'somuncura',2,Living Ctenomys,0.09,0.011,0.31,0.01,0.51,0.001,0.12,0,0.21,0.019,0.09,0.004,Morgan and Verzi 2006
+Ctenomys 'vista',1,Living Ctenomys,0.1,NA,0.32,0.53,0.11,NA,0.24,NA,0.06,NA,NA,NA,Morgan and Verzi 2006
+Ctenomys chapalmalensis,2,Plio-Pleistocene Ctenomys,0.09,0.008,0.3,0.019,0.45,0.005,0.1,0.003,0.2,0.008,0.06,NA,Morgan and Verzi 2006
+Ctenomys sp. 1,1,Plio-Pleistocene Ctenomys,0.12,NA,0.35,NA,0.46,NA,0.1,NA,0.22,NA,0.06,NA,Morgan and Verzi 2006
+Ctenomys sp. 2,1,Plio-Pleistocene Ctenomys,0.1,NA,0.3,NA,0.48,NA,0.11,NA,0.22,NA,0.05,NA,Morgan and Verzi 2006
+Ctenomys sp. 3,2,Plio-Pleistocene Ctenomys,0.08,0.011,0.31,0.01,0.51,0.025,0.11,0.02,0.21,0.004,0.09,0.001,Morgan and Verzi 2006
+Ctenomys sp. 4,1,Plio-Pleistocene Ctenomys,0.08,NA,0.32,NA,0.56,NA,0.09,NA,0.2,NA,0.07,NA,Morgan and Verzi 2006
+Octodon sp.,4,Sister Family,0.08,0.008,0.24,0.01,0.44,0.01,0.11,0.022,0.17,0.011,0.06,0.002,Morgan and Verzi 2006
+Actenomys priscus,10,Pliocene Ctenomyid,0.09,0.005,0.26,0.016,0.47,0.005,0.11,0.009,0.19,0.011,0.04,0.001,Morgan and Verzi 2006

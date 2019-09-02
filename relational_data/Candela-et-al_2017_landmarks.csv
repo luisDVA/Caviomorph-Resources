@@ -1,0 +1,16 @@
+Numbers,Definition,LMtype,skStructure,study
+1,Most distal point of the lateral lip of the astragalar trochlea,2D,tarsal-metatarsal complex,Candela et al 2017
+2,Most distal point of the medial lip of the astragalar trochlea,2D,tarsal-metatarsal complex,Candela et al 2017
+3,Most lateral contact point between the astragalus and the navicular,2D,tarsal-metatarsal complex,Candela et al 2017
+4,Most medial contact point between the astragalus and the navicular,2D,tarsal-metatarsal complex,Candela et al 2017
+5,Most lateral contact point between the calcaneus and the cuboid,2D,tarsal-metatarsal complex,Candela et al 2017
+6,Most medial contact point between the calcaneus and the cuboid,2D,tarsal-metatarsal complex,Candela et al 2017
+7,Most laterodistal point of the cuboid,2D,tarsal-metatarsal complex,Candela et al 2017
+8,Most distal contact point between the cuboid and the ectocuneiform,2D,tarsal-metatarsal complex,Candela et al 2017
+9,"Contact point between the navicular, the cuboid and the ectocuneiform",2D,tarsal-metatarsal complex,Candela et al 2017
+10,"Contact point between the navicular, the ectocuneiform and the mesocuneiform",2D,tarsal-metatarsal complex,Candela et al 2017
+11,Most medial contact point between the navicular and the mesocuneiform,2D,tarsal-metatarsal complex,Candela et al 2017
+12,Most distal contact point between the ectocuneiform and the mesocuneiform,2D,tarsal-metatarsal complex,Candela et al 2017
+13,Most mediodistal point of the mesocuneiform,2D,tarsal-metatarsal complex,Candela et al 2017
+14,Most laterodistal point of the ectocuneiform,2D,tarsal-metatarsal complex,Candela et al 2017
+15,Most mediodistal point of the ectocuneiform,2D,tarsal-metatarsal complex,Candela et al 2017

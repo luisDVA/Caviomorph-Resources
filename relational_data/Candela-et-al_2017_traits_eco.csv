@@ -1,0 +1,37 @@
+study,superfamily,family,subfamily,sp,main_locomotor_behavior,secondary_locomotor_behavior,main_substrate_preference
+Candela et al 2017,Erethizontoidea,Erethizontidae,NA,Erethizon dorsatum,Climbing,Ambulatory,Scansorial
+Candela et al 2017,Erethizontoidea,Erethizontidae,NA,Coendou prehensilis,Climbing,NA,Arboreal
+Candela et al 2017,Erethizontoidea,Erethizontidae,NA,Coendou spinosus,Climbing,NA,Arboreal
+Candela et al 2017,Erethizontoidea,Erethizontidae,NA,Coendou insidiosus,Climbing,NA,Arboreal
+Candela et al 2017,Erethizontoidea,Erethizontidae,NA,Chaetomys subspinosus,Climbing,NA,Arboreal
+Candela et al 2017,Cavioidea,Cuniculidae,NA,Cuniculus paca,Ambulatory,"Swimming, Digging",Terrestrial
+Candela et al 2017,Cavioidea,Dasyproctidae,NA,Dasyprocta azarae,Cursorial,Jumping,Terrestrial
+Candela et al 2017,Cavioidea,Dasyproctidae,NA,Myoprocta acouchi,Cursorial,NA,Terrestrial
+Candela et al 2017,Cavioidea,Caviidae,Caviinae,Cavia aperea,Ambulatory,NA,Terrestrial
+Candela et al 2017,Cavioidea,Caviidae,Caviinae,Microcavia australis,Ambulatory,"Digging, Climbing",Terrestrial
+Candela et al 2017,Cavioidea,Caviidae,Caviinae,Galea leucoblephara,Ambulatory,NA,Terrestrial
+Candela et al 2017,Cavioidea,Caviidae,Dolichotinae,Dolichotis patagonum,Cursorial,"Jumping, Stotting",Terrestrial
+Candela et al 2017,Cavioidea,Caviidae,Dolichotinae,Pediolagus salinicola,Cursorial,Jumping,Terrestrial
+Candela et al 2017,Cavioidea,Caviidae,Hydrochoerinae,Hydrochoerus hydrochaeris,Swimming/ambulatory,NA,Semiaquatic
+Candela et al 2017,Chinchilloidea,Chinchillidae,Chinchillinae,Chinchilla sp.,Jumping,NA,Saxicolous
+Candela et al 2017,Chinchilloidea,Chinchillidae,Chinchillinae,Lagidium viscacia,Jumping,NA,Saxicolous
+Candela et al 2017,Chinchilloidea,Chinchillidae,Lagostominae,Lagostomus maximus,Ambulatory,"Digging, Jumping",Terrestrial
+Candela et al 2017,Octodontoidea,Octodontidae,NA,Octomys mimax,Ambulatory,Digging,Saxicolous
+Candela et al 2017,Octodontoidea,Octodontidae,NA,Octodontomys gliroides,Ambulatory,"Digging, Climbing",Terrestrial
+Candela et al 2017,Octodontoidea,Octodontidae,NA,Tympanoctomys aureus,Digging,NA,Fossorial
+Candela et al 2017,Octodontoidea,Octodontidae,NA,Tympanoctomys kirchnerorum,Digging,NA,Fossorial
+Candela et al 2017,Octodontoidea,Ctenomyidae,NA,Ctenomys magellanicus,Digging,NA,Subterranean
+Candela et al 2017,Octodontoidea,Ctenomyidae,NA,Ctenomys talarum,Digging,NA,Subterranean
+Candela et al 2017,Octodontoidea,Ctenomyidae,NA,Ctenomys australis,Digging,NA,Subterranean
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Myocastor coypus,Swimming,Digging,Semiaquatic
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Phyllomys pattoni,Climbing,NA,Arboreal
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Makalata didelphoides,Climbing,NA,Arboreal
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Proechimys guairae,Ambulatory,NA,Terrestrial
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Proechimys steerei,Ambulatory,NA,Terrestrial
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Trinomys dimidiatus,Ambulatory,NA,Terrestrial
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Euryzygomatomys spinosus,Digging,NA,Semifossorial
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Clyomys laticeps,Digging,NA,Semifossorial
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Lonchothrix emiliae,Climbing,NA,Arboreal
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Dactylomys dactylinus,Climbing,NA,Arboreal
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Kannabateomys amblionyx,Climbing,NA,Arboreal
+Candela et al 2017,Octodontoidea,Echimyidae,NA,Olallamys albicaudata,Undescribed,NA,Undescribed

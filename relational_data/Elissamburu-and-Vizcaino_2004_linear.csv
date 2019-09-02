@@ -1,0 +1,25 @@
+Name,Abbreviation,Description,study
+Functional humerus length,HL,Distance from the proximal point of the articular head to the distal mid-point of the trochlea.,Elissamburu and Vizcaino 2004
+Deltoid length of the humerus,DLH,Distance from the proximal point of the articular head to the distal end of the deltoid tuberosity.,Elissamburu and Vizcaino 2004
+Transverse diameter of the humerus,TDH,Transverse width of the humerus at the diaphyseal midpoint.,Elissamburu and Vizcaino 2004
+Anteroposterior diameter of the humerus,APDH,Anteroposterior depth of the humerus taken at a distance of 35% of the humeral length from the distal articular surface (Bicknevicius et al 1993).,Elissamburu and Vizcaino 2004
+Diameter of the epicondyles,DEH,Transverse width of the humerus across the epicondyles.,Elissamburu and Vizcaino 2004
+Total ulna length,UL,Distance from the tip of the olecranon process to the distal articular surface of the ulna.,Elissamburu and Vizcaino 2004
+Olecranon length,OL,Distance along the long axis of the ulna from the tip of the olecranon process to the centre of the trochlear notch.,Elissamburu and Vizcaino 2004
+Functional ulna length,FUL,Difference between total ulna length UL and olecranon length OL.,Elissamburu and Vizcaino 2004
+Transverse diameter of the ulna,TDU,Transverse width of the ulna at the diaphyseal midpoint.,Elissamburu and Vizcaino 2004
+Functional femur length,FL,Distance from the proximal point of the femoral head to the distal point of the femoral condyles.,Elissamburu and Vizcaino 2004
+Distal extension of greater trochanter,DMT,Distance from the proximal point of the femoral head to the distal end of the greater trochanter.,Elissamburu and Vizcaino 2004
+Transverse diameter of the femur,TDF,Transverse width of the femur at the diaphyseal midpoint.,Elissamburu and Vizcaino 2004
+Tibia length,TL,Distance between the proximal and distal articular surfaces of the tibia.,Elissamburu and Vizcaino 2004
+Proximal tibia length,PT,Distance from the proximal articular surface of the tibia to the distal point of the tibial tuberosity.,Elissamburu and Vizcaino 2004
+Transverse diameter of the tibia,TDT,Width of the tibia at the diaphyseal midpoint.,Elissamburu and Vizcaino 2004
+Shoulder moment index,SMI,Deltoid length of the humerus divided by the functional length of the humerus (DLH/HL × 100). This index is an indication of the mechanical advantage of the deltoid and major pectoral muscles acting across the shoulder joint.,Elissamburu and Vizcaino 2004
+Humerus robustness index,HRI,Transverse diameter of the humerus divided by functional length of the humerus (TDH/HL × 100). It gives an indication of the robustness of the humerus.,Elissamburu and Vizcaino 2004
+Epicondyle index,EI,"Epicondylar width of the humerus divided by functional length of the humerus (DEH/HL × 100). It gives an indication of the relative width available for the origin of the flexor, pronator, and supinator muscles of the forearm. It is considered a good indicator of fossoriality (Hildebrand, 1985; Lessa & Stein, 1992).",Elissamburu and Vizcaino 2004
+Index of fossorial ability,IFA,Length of the olecranon process divided by the functional ulna length (OL/FUL × 100). This index gives a measure of the mechanical advantage of the triceps and dorso-epitrochlearis muscles in elbow extension. It is also considered a good indicator of fossoriality.,Elissamburu and Vizcaino 2004
+Ulna robustness index,URI,Transverse diameter of the ulna divided by the functional ulna length (TDU/FUL × 100). It gives an indication of the robustness of the forearm and the relative width available for the insertion of muscles involved with pronation and supination of the forearm and flexion of the manus and digits.,Elissamburu and Vizcaino 2004
+Gluteal index,GI,Distal extension of greater trochanter divided by the functional femoral length (DMT/FL × 100). It gives a measure of the mechanical advantage of the gluteus medius muscle and the velocity of femur extension.,Elissamburu and Vizcaino 2004
+Femur robustness index,FRI,"Transverse diameter of the femur divided by the functional femoral length (TDF/FL × 100). It gives an idea of capacity to support body mass and to withstand vertical forces associated with velocity increase (Biewener & Taylor 1986; Demes et al., 1994).",Elissamburu and Vizcaino 2004
+Tibial spine index,TSI,"Proximal tibia length divided by the length of the tibia (PT/TL × 100). It gives an indication of strength of the leg and the relative width available for the insertion site of the gracilis, semitendinosus and semimembranosus muscles and the foot flexors. It is important in the flexion of the leg during the first phase of the gait. Proximal insertion is related to greater speed during the initial propulsor movement (Elftman, 1929).",Elissamburu and Vizcaino 2004
+Tibia robustness index,TRI,Transverse diameter of the tibia divided by the tibial length (TDT/TL × 100). It gives an indication of the strength of the leg and the relative width available for the origins of the muscles acting across the ankle.,Elissamburu and Vizcaino 2004
