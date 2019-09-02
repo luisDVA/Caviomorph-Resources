@@ -49,7 +49,7 @@ RMarkdown scripts to query the data for particular species and produce customize
 
 The code relies on the here package and will run best if all files and folders are downloaded and set up in the following directory structure:
 
-├── overall project workspace  
+├ ─ ─ overall project workspace  
 │   ├── master_lists  
 │   ├── relational_data  
 │   └── scripts  
