@@ -1,5 +1,5 @@
 ## Supplementary materials README guide 
-# Resources for studying form and function in New World hystricognath rodents in a comparative context
+# Patterns in research and data-sharing for the study of form and function in caviomorph rodents
 
 Data description and general guide for working with the files uploaded to the repository. 
 Supplementary materials files are organized in the following three folders:
